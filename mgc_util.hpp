@@ -27,6 +27,17 @@ void _ins_sort(T a[], int l, int r)
     }
 }
 
+void downHeap(int a[], int k, int N)
+{
+    while (2*k <= N)
+    {
+        int j = 2*k;
+        if (j < N && a[j] < a[j+1]) j++;
+        if (!(a[k] < a[j])) break;
+        swap(a, j, k); k = j;
+    }
+}
+
 }
 
 
