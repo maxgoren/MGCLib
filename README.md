@@ -6,11 +6,14 @@ A C++ Library of commonly used Data Structures and Algorithms.
  - Stack - singly linked LIFO Stack
  - Queue - singly linked list FIFO Queue
  - Priority Queue - Binary Heap (Max Ordered) 
+ - Vector - dynamically sized/resizeable array
 
 ## Non Sequential Containers (Ordered)
 All ordered, non-sequential containers are implemented from (Left Leaning) Red/Black Tree base class.
- - Set
- - Map
+ - Set - ordered, distinct values
+ - Map - Key/Value pairs, suitable for assosciative arrays
+
+Multiset and Multimap are being implemented via an openchaining Hashtable and are not fully implemented yet. 
 
 ## Sorting Algorithms
 The Library offers interfaces to:
