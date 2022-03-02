@@ -5,7 +5,8 @@ A C++ Library of commonly used Data Structures and Algorithms.
  - List - implements a Doubly Linked List
  - Stack - singly linked LIFO Stack
  - Queue - singly linked list FIFO Queue
- - Priority Queue - Binary Heap (Max Ordered) 
+ - Priority Queue - Single Item Max Heap
+ - Heap Priority Queue - Priority/Item pair using comparator to implement both min and max heap
  - Vector - dynamically sized/resizeable array
 
 ## Non Sequential Containers (Ordered)
