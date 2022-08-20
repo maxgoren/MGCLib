@@ -7,6 +7,7 @@ A C++ Library of commonly used Data Structures and Algorithms.
  - Queue - singly linked list FIFO Queue
  - Priority Queue - Single Item Max Heap
  - Heap Priority Queue - Priority/Item pair using comparator to implement both min and max heap
+ - Meldable Heap Priority Queue - Min-Heap priority queue that supports merging two heaps in O(log n)
  - Vector - dynamically sized/resizeable array
 
 ## Non Sequential Containers (Ordered)
